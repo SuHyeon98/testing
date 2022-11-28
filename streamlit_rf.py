@@ -12,15 +12,15 @@ airline2.dropna(inplace=True)
 
 airline.dropna(inplace=True)
 
-st.title("항공사 고객 만족도 LightGBM")
-st.write("메모리 문제로 인해 LightGBM만 따로 진행했습니다.")
+st.title("항공사 고객 만족도 random_forest")
+
 
 st.write("")
 st.write("")
 
 X, y, airline_test_X, airline_test = prepro.preprocess(airline, airline2)
 
-light.light_(X, y, airline_test_X, airline_test)
+forest.random_(X, y, airline_test_X, airline_test)
 
 st.write("")
 st.write("")
