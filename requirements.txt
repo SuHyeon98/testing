@@ -1,0 +1,9 @@
+pandas
+streamlit
+matplotlib==3.5.2
+scikit-learn
+numpy
+seaborn
+xgboost
+shap
+lightgbm
